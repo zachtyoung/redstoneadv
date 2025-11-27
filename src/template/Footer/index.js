@@ -79,21 +79,46 @@ const Footer = () => {
           <div>
             <h2>Resources</h2>
             <ul>
-              {footerData.kontentItemFooter.elements.legal_links.value.map(
-                (el) => {
-                  return (
-                    <li>
-                      <a
-                        href={el.elements.pdf.value[0].url}
-                        target="_blank"
-                        className="resources"
-                      >
-                        {el.elements.label.value}
-                      </a>
-                    </li>
-                  );
-                }
-              )}
+              <li>
+                <a
+                  href="/pdfs/Privacy Policy April 2025.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="resources"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/pdfs/ADV Part II March 2025.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="resources"
+                >
+                  ADV IIA
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/pdfs/ADV Part IIB March 2025.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="resources"
+                >
+                  ADV IIB
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/pdfs/Form CRS March 2025.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="resources"
+                >
+                  CRS
+                </a>
+              </li>
             </ul>
           </div>
         </MidLeft>
