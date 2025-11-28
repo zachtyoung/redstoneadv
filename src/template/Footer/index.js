@@ -205,7 +205,7 @@ const Footer = () => {
           value={footerData.kontentItemFooter.elements.disclosure.value}
         />
 
-        <span>© 2023 Redstone Advisors, Inc. All Rights Reserved.</span>
+        <span>© {new Date().getFullYear()} Redstone Advisors, Inc. All Rights Reserved.</span>
       </Bottom>
     </Container>
   );
